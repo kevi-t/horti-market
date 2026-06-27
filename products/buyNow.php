@@ -50,7 +50,6 @@
         require 'menu.php';
     ?>
 <div class="bg-img">
- <center>
  <form action="buyNow.php" method='POST' class="auth-card">
         <h2>Transaction Details</h2>
         <div class="form-group">
@@ -61,23 +60,22 @@
         </div>
         <div class="form-group">
             <input class="form-control" type="text" name="mobile" id="mobile" value="" placeholder="Mobile Number" required/>
-        </div>           
+        </div>
         <div class="form-group">
-            <input class="form-control" type="email" name="email" id="email" value="" placeholder="Email" required style="width:80% "/>
+            <input class="form-control" type="email" name="email" id="email" value="" placeholder="Email" required/>
         </div>
         <div class="form-group">
             <input class="form-control" type="text" name="pincode" id="pincode" value="" placeholder="Pincode" required/>
-        </div>   
+        </div>
         <div class="form-group">
             <input class="form-control" type="text" name="addr" id="addr" value="" placeholder="Address" required/>
         </div>
         <p>
-          <input type="submit" value="Confirm Order" />
-          <a href="../Mpesa-Transaction">Mpesa Payment</a>
-        </p>                
-        
+          <input type="submit" value="Confirm Order" class="btn-submit" style="cursor:pointer;" />
+          <a href="../mpesa/index.php">Mpesa Payment</a>
+        </p>
+
 </form>
-</center>
 </div>   
 
 </body>
